@@ -14,10 +14,17 @@ import { exportToCSV } from '@/lib/utils';
 
 export default function Home() {
   const { user, isAuthenticated, logout } = useAuth();
-  const { classes, sessions, darkMode, toggleDarkMode, exportData } = useAppStore();
+  const { classes, sessions, darkMode, toggleDarkMode, exportData, initializeData } = useAppStore();
   const [activeTab, setActiveTab] = useState<'classes' | 'attendance' | 'reports' | 'charts' | 'dashboard'>('dashboard');
   const [searchTerm, setSearchTerm] = useState('');
   const [showSettings, setShowSettings] = useState(false);
+
+  // Initialize data on mount
+  useEffect(() => {
+    if (isAuthenticated) {
+      initializeData();
+    }
+  }, [isAuthenticated, initializeData]);
 
   useEffect(() => {
     if (darkMode) {
