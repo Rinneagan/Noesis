@@ -52,7 +52,14 @@ export class WebSocketService {
   }
 
   connect(url: string = 'ws://localhost:3001'): Promise<void> {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
+      // Don't attempt WebSocket connection in development unless explicitly enabled
+      if (typeof window !== 'undefined' && process.env.NODE_ENV !== 'production') {
+        console.log('WebSocket disabled in development - continuing without real-time features');
+        resolve();
+        return;
+      }
+
       if (this.isConnecting) {
         console.log('Connection already in progress, waiting...');
         return;
@@ -98,7 +105,6 @@ export class WebSocketService {
         this.ws.onerror = (event) => {
           console.error('WebSocket error:', event);
           this.isConnecting = false;
-          // Gracefully handle connection errors
           console.log('WebSocket connection failed - continuing without real-time features');
           resolve(); // Don't reject, just continue without WebSocket
         };

@@ -28,3 +28,32 @@
 [00:00:52.823] Browser LOG     Max reconnection attempts reached
 [00:01:11.178] Server  LOG     ✓ Compiled in 1733ms
 [00:01:20.582] Server  LOG     ✓ Compiled in 304ms
+[00:03:03.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:03.654] Browser LOG     SW registered:  {}
+[00:03:05.488] Browser LOG     Connection already in progress, waiting...
+[00:03:05.488] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:03:05.488] Browser LOG     WebSocket connection failed - continuing without real-time features
+[00:03:05.488] Browser LOG     WebSocket disconnected: 1006 
+[00:03:05.488] Browser LOG     Attempting to reconnect... (1/5)
+[00:03:06.494] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:03:06.494] Browser LOG     WebSocket connection failed - continuing without real-time features
+[00:03:06.494] Browser LOG     WebSocket disconnected: 1006 
+[00:03:06.494] Browser LOG     Attempting to reconnect... (2/5)
+[00:03:08.497] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:03:08.497] Browser LOG     WebSocket connection failed - continuing without real-time features
+[00:03:08.498] Browser LOG     WebSocket disconnected: 1006 
+[00:03:08.498] Browser LOG     Attempting to reconnect... (3/5)
+[00:03:12.502] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:03:12.502] Browser LOG     WebSocket connection failed - continuing without real-time features
+[00:03:12.502] Browser LOG     WebSocket disconnected: 1006 
+[00:03:12.502] Browser LOG     Attempting to reconnect... (4/5)
+[00:03:20.557] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:03:20.557] Browser LOG     WebSocket connection failed - continuing without real-time features
+[00:03:20.557] Browser LOG     WebSocket disconnected: 1006 
+[00:03:20.557] Browser LOG     Attempting to reconnect... (5/5)
+[00:03:25.938] Server  LOG     ✓ Compiled in 890ms
+[00:03:33.048] Server  LOG     ✓ Compiled in 106ms
+[00:03:36.576] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:03:36.576] Browser LOG     WebSocket connection failed - continuing without real-time features
+[00:03:36.576] Browser LOG     WebSocket disconnected: 1006 
+[00:03:36.576] Browser LOG     Max reconnection attempts reached
