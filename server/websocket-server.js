@@ -6,8 +6,10 @@ const path = require('path');
 const app = express();
 const server = http.createServer(app);
 
-// Serve static files
-app.use(express.static(path.join(__dirname, '../out')));
+// Serve static files (only in production)
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, '../out')));
+}
 
 // WebSocket server
 const wss = new WebSocket.Server({ server });

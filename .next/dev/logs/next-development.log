@@ -329,3 +329,67 @@ Import traces:
 [00:41:13.547] Server  LOG     ✓ Compiled in 97ms
 [00:41:25.213] Server  LOG     ✓ Compiled in 69ms
 [00:41:35.434] Server  LOG     ✓ Compiled in 456ms
+[00:47:14.435] Browser ERROR   Failed to connect WebSocket: {}
+[00:47:14.435] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:47:14.435] Browser ERROR   Failed to connect WebSocket: {"isTrusted":true}
+[00:47:14.435] Browser LOG     WebSocket disconnected: 1006 
+[00:47:14.435] Browser LOG     Max reconnection attempts reached
+[00:51:42.432] Server  LOG     ✓ Compiled in 144ms
+[01:17:24.791] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:28.567] Browser ERROR   Failed to connect WebSocket: {}
+[01:17:28.567] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:17:28.567] Browser ERROR   Failed to connect WebSocket: {"isTrusted":true}
+[01:17:28.567] Browser LOG     WebSocket disconnected: 1006 
+[01:17:28.567] Browser LOG     Attempting to reconnect... (1/5)
+[01:17:29.597] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:17:29.598] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[01:17:29.598] Browser LOG     WebSocket disconnected: 1006 
+[01:17:29.598] Browser LOG     Attempting to reconnect... (2/5)
+[01:17:31.575] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:17:31.575] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[01:17:31.575] Browser LOG     WebSocket disconnected: 1006 
+[01:17:31.575] Browser LOG     Attempting to reconnect... (3/5)
+[01:17:35.603] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:17:35.603] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[01:17:35.603] Browser LOG     WebSocket disconnected: 1006 
+[01:17:35.603] Browser LOG     Attempting to reconnect... (4/5)
+[01:17:43.606] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:17:43.606] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[01:17:43.606] Browser LOG     WebSocket disconnected: 1006 
+[01:17:43.606] Browser LOG     Attempting to reconnect... (5/5)
+[01:17:59.619] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:17:59.619] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[01:17:59.619] Browser LOG     WebSocket disconnected: 1006 
+[01:17:59.619] Browser LOG     Max reconnection attempts reached
+[01:45:51.503] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:45:51.503] Browser LOG     SW registered:  {}
+[01:45:54.480] Browser ERROR   Failed to connect WebSocket: {}
+[01:45:54.480] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:45:54.480] Browser ERROR   Failed to connect WebSocket: {"isTrusted":true}
+[01:45:54.480] Browser LOG     WebSocket disconnected: 1006 
+[01:45:54.480] Browser LOG     Attempting to reconnect... (1/5)
+[01:45:55.366] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:45:55.366] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[01:45:55.366] Browser LOG     WebSocket disconnected: 1006 
+[01:45:55.366] Browser LOG     Attempting to reconnect... (2/5)
+[01:45:57.373] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:45:57.373] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[01:45:57.373] Browser LOG     WebSocket disconnected: 1006 
+[01:45:57.373] Browser LOG     Attempting to reconnect... (3/5)
+[01:46:01.407] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:46:01.407] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[01:46:01.407] Browser LOG     WebSocket disconnected: 1006 
+[01:46:01.407] Browser LOG     Attempting to reconnect... (4/5)
+[01:46:09.411] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:46:09.411] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[01:46:09.411] Browser LOG     WebSocket disconnected: 1006 
+[01:46:09.411] Browser LOG     Attempting to reconnect... (5/5)
+[01:46:25.563] Browser ERROR   WebSocket error: {"isTrusted":true}
+[01:46:25.563] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[01:46:25.563] Browser LOG     WebSocket disconnected: 1006 
+[01:46:25.563] Browser LOG     Max reconnection attempts reached
+[01:48:32.116] Server  LOG     ✓ Compiled in 311ms
+[01:48:55.052] Server  LOG     ✓ Compiled in 155ms
+[01:49:00.555] Server  LOG     ✓ Compiled in 54ms
+[01:57:54.739] Server  LOG     ✓ Compiled in 210ms
+[01:58:39.660] Server  LOG     ✓ Compiled in 123ms

@@ -88,17 +88,23 @@ export class WebSocketService {
         this.ws.onclose = (event) => {
           console.log('WebSocket disconnected:', event.code, event.reason);
           this.isConnecting = false;
-          this.handleReconnect();
+          // Only reconnect if not a normal closure
+          if (event.code !== 1000) {
+            this.handleReconnect();
+          }
         };
 
-        this.ws.onerror = (error) => {
-          console.error('WebSocket error:', error);
+        this.ws.onerror = (event) => {
+          console.error('WebSocket error:', event);
           this.isConnecting = false;
-          reject(error);
+          // Gracefully handle connection errors
+          console.log('WebSocket connection failed - continuing without real-time features');
+          resolve(); // Don't reject, just continue without WebSocket
         };
       } catch (error) {
         this.isConnecting = false;
-        reject(error);
+        console.log('WebSocket not available - continuing without real-time features');
+        resolve(); // Don't reject, just continue without WebSocket
       }
     });
   }
@@ -114,7 +120,12 @@ export class WebSocketService {
 
     setTimeout(() => {
       this.connect().catch(error => {
-        console.error('Reconnection failed:', error);
+        console.error('Reconnection failed:', error.message);
+        // Don't keep trying if server isn't running
+        if (error.message.includes('WebSocket server not available')) {
+          console.log('Stopping reconnection attempts - server not running');
+          return;
+        }
       });
     }, this.reconnectDelay);
 

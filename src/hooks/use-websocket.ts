@@ -19,7 +19,9 @@ export function useWebSocket() {
       } catch (error) {
         console.error('Failed to connect WebSocket:', error);
         setIsConnected(false);
-        setConnectionState('ERROR');
+        setConnectionState('OFFLINE');
+        // Don't show error to user - just continue without real-time features
+        console.log('Continuing without real-time WebSocket features');
       }
     };
 

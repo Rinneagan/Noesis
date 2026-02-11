@@ -289,7 +289,7 @@ export class NotificationService {
 
   private async sendPushNotification(userId: string, notification: Notification): Promise<void> {
     // In a real implementation, this would use Web Push API or service worker
-    if ('serviceWorker' in navigator && 'PushManager' in window) {
+    if (typeof window !== 'undefined' && 'serviceWorker' in navigator && 'PushManager' in window) {
       try {
         const registration = await navigator.serviceWorker.ready;
         if (registration) {
