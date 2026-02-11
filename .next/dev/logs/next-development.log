@@ -8,3 +8,324 @@
 [00:06:44.776] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:08:17.011] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:08:21.384] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:38.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:16.169] Server  LOG     ✓ Compiled in 401ms
+[00:16:43.624] Server  LOG     ✓ Compiled in 126ms
+[00:17:15.733] Server  LOG     ✓ Compiled in 152ms
+[00:19:08.415] Server  LOG     ✓ Compiled in 2.2s
+[00:19:31.194] Server  LOG     ✓ Compiled in 85ms
+[00:20:01.338] Server  LOG     ✓ Compiled in 60ms
+[00:20:01.443] Browser ERROR   ./src/components/AttendanceTracker.tsx:65:23
+Parsing ecmascript source code failed
+  63 |     if (!selectedClass) return;
+  64 |     
+> 65 |     const sessionId = await createAttendanceSession({
+     |                       ^^^^^
+  66 |       classId: selectedClass.id,
+  67 |       date: sessionDate,
+  68 |       startTime: new Date().toLocaleTimeString(),
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./src/components/AttendanceTracker.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/AttendanceTracker.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:14.439] Server  LOG     ✓ Compiled in 72ms
+[00:20:51.196] Server  LOG     ✓ Compiled in 66ms
+[00:20:51.298] Browser ERROR   ./src/app/page.tsx:115:14
+Parsing ecmascript source code failed
+  113 |                 </div>
+  114 |               </div>
+> 115 |             )}
+      |              ^
+  116 |           </div>
+  117 |         </header>
+  118 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:57.910] Server  LOG     ✓ Compiled in 79ms
+[00:20:58.027] Browser ERROR   ./src/app/page.tsx:115:17
+Parsing ecmascript source code failed
+  113 |               </div>
+  114 |             </div>
+> 115 |           </div>
+      |                 ^
+> 116 |         </header>
+      | ^^^^^^^^^
+  117 |
+  118 |         <main className="max-w-7xl mx-auto py-4 sm:py-6 px-4 sm:px-6 lg:px-8">
+  119 |           <div className="pb-8">
+
+Expected '</', got 'jsx text'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:21:15.803] Server  LOG     ✓ Compiled in 1520ms
+[00:31:33.033] Server  LOG     ✓ Compiled in 54ms
+[00:33:09.941] Server  LOG     ✓ Compiled in 51ms
+[00:33:19.356] Server  LOG     ✓ Compiled in 425ms
+[00:33:25.913] Server  LOG     ✓ Compiled in 61ms
+[00:33:35.580] Server  LOG     ✓ Compiled in 124ms
+[00:33:44.873] Server  LOG     ✓ Compiled in 52ms
+[00:34:31.996] Server  LOG     ✓ Compiled in 200ms
+[00:34:37.430] Server  LOG     ✓ Compiled in 142ms
+[00:34:51.935] Server  LOG     ✓ Compiled in 59ms
+[00:34:57.299] Server  LOG     ✓ Compiled in 289ms
+[00:38:01.468] Browser ERROR   Failed to connect WebSocket: {}
+[00:38:01.468] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:38:01.468] Browser ERROR   Failed to connect WebSocket: {"isTrusted":true}
+[00:38:01.468] Browser LOG     WebSocket disconnected: 1006 
+[00:38:01.468] Browser LOG     Attempting to reconnect... (1/5)
+[00:38:02.459] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:38:02.459] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[00:38:02.459] Browser LOG     WebSocket disconnected: 1006 
+[00:38:02.459] Browser LOG     Attempting to reconnect... (2/5)
+[00:38:04.464] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:38:04.464] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[00:38:04.464] Browser LOG     WebSocket disconnected: 1006 
+[00:38:04.464] Browser LOG     Attempting to reconnect... (3/5)
+[00:38:08.511] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:38:08.511] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[00:38:08.511] Browser LOG     WebSocket disconnected: 1006 
+[00:38:08.511] Browser LOG     Attempting to reconnect... (4/5)
+[00:38:14.802] Browser ERROR   Failed to connect WebSocket: {}
+[00:38:14.802] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:38:14.802] Browser ERROR   Failed to connect WebSocket: {"isTrusted":true}
+[00:38:14.802] Browser LOG     WebSocket disconnected: 1006 
+[00:38:14.802] Browser LOG     Attempting to reconnect... (5/5)
+[00:38:16.514] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:38:16.514] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[00:38:16.514] Browser LOG     WebSocket disconnected: 1006 
+[00:38:16.514] Browser LOG     Max reconnection attempts reached
+[00:38:30.804] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:38:30.804] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[00:38:30.804] Browser LOG     WebSocket disconnected: 1006 
+[00:38:30.804] Browser LOG     Max reconnection attempts reached
+[00:38:55.642] Server  LOG     ✓ Compiled in 94ms
+[00:39:04.941] Server  LOG     ✓ Compiled in 163ms
+[00:39:05.012] Browser ERROR   ./src/components/QRScanner.tsx:10:42
+Ecmascript file had an error
+   8 | import { CheckCircle, Camera, MapPin, Shield, AlertCircle, X, CameraOff } from 'lucide-react';
+   9 | import PhotoVerification from './PhotoVerification';
+> 10 | import { QrCode, Camera, MapPin, Shield, AlertCircle, CheckCircle, X } from 'lucide-react';
+     |                                          ^^^^^^^^^^^
+  11 |
+  12 | interface QRScannerProps {
+  13 |   onCheckIn: (request: CheckInRequest) => Promise<void>;
+
+the name `AlertCircle` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/components/QRScanner.tsx [Client Component Browser]
+    ./src/components/StudentCheckInPortal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/QRScanner.tsx [Client Component SSR]
+    ./src/components/StudentCheckInPortal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:39:05.012] Browser ERROR   ./src/components/QRScanner.tsx:10:18
+Ecmascript file had an error
+   8 | import { CheckCircle, Camera, MapPin, Shield, AlertCircle, X, CameraOff } from 'lucide-react';
+   9 | import PhotoVerification from './PhotoVerification';
+> 10 | import { QrCode, Camera, MapPin, Shield, AlertCircle, CheckCircle, X } from 'lucide-react';
+     |                  ^^^^^^
+  11 |
+  12 | interface QRScannerProps {
+  13 |   onCheckIn: (request: CheckInRequest) => Promise<void>;
+
+the name `Camera` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/components/QRScanner.tsx [Client Component Browser]
+    ./src/components/StudentCheckInPortal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/QRScanner.tsx [Client Component SSR]
+    ./src/components/StudentCheckInPortal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:39:05.012] Browser ERROR   ./src/components/QRScanner.tsx:10:55
+Ecmascript file had an error
+   8 | import { CheckCircle, Camera, MapPin, Shield, AlertCircle, X, CameraOff } from 'lucide-react';
+   9 | import PhotoVerification from './PhotoVerification';
+> 10 | import { QrCode, Camera, MapPin, Shield, AlertCircle, CheckCircle, X } from 'lucide-react';
+     |                                                       ^^^^^^^^^^^
+  11 |
+  12 | interface QRScannerProps {
+  13 |   onCheckIn: (request: CheckInRequest) => Promise<void>;
+
+the name `CheckCircle` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/components/QRScanner.tsx [Client Component Browser]
+    ./src/components/StudentCheckInPortal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/QRScanner.tsx [Client Component SSR]
+    ./src/components/StudentCheckInPortal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:39:05.012] Browser ERROR   ./src/components/QRScanner.tsx:10:26
+Ecmascript file had an error
+   8 | import { CheckCircle, Camera, MapPin, Shield, AlertCircle, X, CameraOff } from 'lucide-react';
+   9 | import PhotoVerification from './PhotoVerification';
+> 10 | import { QrCode, Camera, MapPin, Shield, AlertCircle, CheckCircle, X } from 'lucide-react';
+     |                          ^^^^^^
+  11 |
+  12 | interface QRScannerProps {
+  13 |   onCheckIn: (request: CheckInRequest) => Promise<void>;
+
+the name `MapPin` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/components/QRScanner.tsx [Client Component Browser]
+    ./src/components/StudentCheckInPortal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/QRScanner.tsx [Client Component SSR]
+    ./src/components/StudentCheckInPortal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:39:05.012] Browser ERROR   ./src/components/QRScanner.tsx:10:34
+Ecmascript file had an error
+   8 | import { CheckCircle, Camera, MapPin, Shield, AlertCircle, X, CameraOff } from 'lucide-react';
+   9 | import PhotoVerification from './PhotoVerification';
+> 10 | import { QrCode, Camera, MapPin, Shield, AlertCircle, CheckCircle, X } from 'lucide-react';
+     |                                  ^^^^^^
+  11 |
+  12 | interface QRScannerProps {
+  13 |   onCheckIn: (request: CheckInRequest) => Promise<void>;
+
+the name `Shield` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/components/QRScanner.tsx [Client Component Browser]
+    ./src/components/StudentCheckInPortal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/QRScanner.tsx [Client Component SSR]
+    ./src/components/StudentCheckInPortal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:39:05.012] Browser ERROR   ./src/components/QRScanner.tsx:10:68
+Ecmascript file had an error
+   8 | import { CheckCircle, Camera, MapPin, Shield, AlertCircle, X, CameraOff } from 'lucide-react';
+   9 | import PhotoVerification from './PhotoVerification';
+> 10 | import { QrCode, Camera, MapPin, Shield, AlertCircle, CheckCircle, X } from 'lucide-react';
+     |                                                                    ^
+  11 |
+  12 | interface QRScannerProps {
+  13 |   onCheckIn: (request: CheckInRequest) => Promise<void>;
+
+the name `X` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/components/QRScanner.tsx [Client Component Browser]
+    ./src/components/StudentCheckInPortal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/QRScanner.tsx [Client Component SSR]
+    ./src/components/StudentCheckInPortal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:39:11.710] Browser ERROR   uncaughtError: ReferenceError: QrCode is not defined
+[00:39:17.121] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:17.141] Server  LOG     ✓ Compiled in 133ms
+[00:39:20.314] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:24.204] Browser ERROR   Failed to connect WebSocket: {}
+[00:39:24.204] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:39:24.204] Browser ERROR   Failed to connect WebSocket: {"isTrusted":true}
+[00:39:24.204] Browser LOG     WebSocket disconnected: 1006 
+[00:39:24.204] Browser LOG     Attempting to reconnect... (1/5)
+[00:39:27.550] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:39:27.550] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[00:39:27.550] Browser LOG     WebSocket disconnected: 1006 
+[00:39:27.550] Browser LOG     Attempting to reconnect... (2/5)
+[00:39:32.787] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:39:32.787] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[00:39:32.787] Browser LOG     WebSocket disconnected: 1006 
+[00:39:32.787] Browser LOG     Attempting to reconnect... (3/5)
+[00:39:40.645] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:39:40.645] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[00:39:40.645] Browser LOG     WebSocket disconnected: 1006 
+[00:39:40.645] Browser LOG     Attempting to reconnect... (4/5)
+[00:39:45.200] Server  LOG     ✓ Compiled in 87ms
+[00:39:52.791] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:39:52.791] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[00:39:52.791] Browser LOG     WebSocket disconnected: 1006 
+[00:39:52.791] Browser LOG     Attempting to reconnect... (5/5)
+[00:39:55.620] Server  LOG     ✓ Compiled in 63ms
+[00:40:02.766] Server  LOG     ✓ Compiled in 54ms
+[00:40:02.870] Browser ERROR   ./src/components/QRScanner.tsx:378:10
+Parsing ecmascript source code failed
+  376 |             </div>
+  377 |           </div>
+> 378 |         )}
+      |          ^
+  379 |
+  380 |         {/* Verification State */}
+  381 |         {isVerifying && (
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/QRScanner.tsx [Client Component Browser]
+    ./src/components/StudentCheckInPortal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/QRScanner.tsx [Client Component SSR]
+    ./src/components/StudentCheckInPortal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:40:10.510] Browser ERROR   WebSocket error: {"isTrusted":true}
+[00:40:10.511] Browser ERROR   Reconnection failed: {"isTrusted":true}
+[00:40:10.511] Browser LOG     WebSocket disconnected: 1006 
+[00:40:10.511] Browser LOG     Max reconnection attempts reached
+[00:40:15.194] Server  LOG     ✓ Compiled in 56ms
+[00:41:13.547] Server  LOG     ✓ Compiled in 97ms
+[00:41:25.213] Server  LOG     ✓ Compiled in 69ms
+[00:41:35.434] Server  LOG     ✓ Compiled in 456ms
