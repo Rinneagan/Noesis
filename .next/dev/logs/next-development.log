@@ -57,3 +57,56 @@
 [00:03:36.576] Browser LOG     WebSocket connection failed - continuing without real-time features
 [00:03:36.576] Browser LOG     WebSocket disconnected: 1006 
 [00:03:36.576] Browser LOG     Max reconnection attempts reached
+[00:05:12.754] Server  LOG     ✓ Compiled in 110ms
+[00:05:12.858] Browser ERROR   ./src/lib/websocket-service.ts:144:3
+Parsing ecmascript source code failed
+  142 |   }
+  143 |
+> 144 |   private handleMessage(message: WebSocketMessage): void {
+      |   ^^^^^^^
+  145 |     const typeListeners = this.listeners.get(message.type);
+  146 |     if (typeListeners) {
+  147 |       typeListeners.forEach(listener => listener(message));
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/websocket-service.ts [Client Component Browser]
+    ./src/hooks/use-websocket.ts [Client Component Browser]
+    ./src/components/StudentCheckInPortal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/websocket-service.ts [Client Component SSR]
+    ./src/hooks/use-websocket.ts [Client Component SSR]
+    ./src/components/StudentCheckInPortal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:07.356] Browser ERROR   ./src/lib/websocket-service.ts:144:3
+Parsing ecmascript source code failed
+  142 |   }
+  143 |
+> 144 |   private handleMessage(message: WebSocketMessage): void {
+      |   ^^^^^^^
+  145 |     const typeListeners = this.listeners.get(message.type);
+  146 |     if (typeListeners) {
+  147 |       typeListeners.forEach(listener => listener(message));
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/websocket-service.ts [Client Component Browser]
+    ./src/hooks/use-websocket.ts [Client Component Browser]
+    ./src/components/StudentCheckInPortal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/websocket-service.ts [Client Component SSR]
+    ./src/hooks/use-websocket.ts [Client Component SSR]
+    ./src/components/StudentCheckInPortal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]

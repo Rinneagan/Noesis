@@ -38,11 +38,11 @@ export interface StudentCheckInMessage {
 export class WebSocketService {
   private static instance: WebSocketService;
   private ws: WebSocket | null = null;
-  private isConnecting = false;
   private reconnectAttempts = 0;
   private maxReconnectAttempts = 5;
   private reconnectDelay = 1000;
   private listeners: Map<string, Set<(message: WebSocketMessage) => void>> = new Map();
+  private isConnecting = false;
 
   static getInstance(): WebSocketService {
     if (!WebSocketService.instance) {
@@ -139,6 +139,7 @@ export class WebSocketService {
     // Exponential backoff
     this.reconnectDelay = Math.min(this.reconnectDelay * 2, 30000);
   }
+  }
 
   private handleMessage(message: WebSocketMessage): void {
     const typeListeners = this.listeners.get(message.type);
@@ -157,6 +158,7 @@ export class WebSocketService {
     if (!this.listeners.has(type)) {
       this.listeners.set(type, new Set());
     }
+    
     this.listeners.get(type)!.add(listener);
 
     // Return unsubscribe function
