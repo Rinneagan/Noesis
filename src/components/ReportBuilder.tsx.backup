@@ -104,7 +104,7 @@ export default function ReportBuilder({ className = '' }: ReportBuilderProps) {
           session.records.map(record => ({
             date: session.date,
             className: classes.find(c => c.id === session.classId)?.name || 'Unknown',
-            studentName: 'Student ' + record.studentId,
+            studentName: `Student ${record.studentId}`,
             status: record.status,
             checkInTime: record.timestamp,
             checkInMethod: record.checkInMethod || 'manual'
@@ -125,7 +125,7 @@ export default function ReportBuilder({ className = '' }: ReportBuilderProps) {
             totalRecords,
             presentRecords,
             attendanceRate: attendanceRate.toFixed(1) + '%',
-            trend: attendanceRate >= 80 ? 'Excellent' : attendanceRate >= 70 ? 'Good' : 'Needs Improvement'
+            trend: attendanceRate >= 80 ? '📈 Excellent' : attendanceRate >= 70 ? '📊 Good' : '📉 Needs Improvement'
           };
         });
       
@@ -195,7 +195,7 @@ export default function ReportBuilder({ className = '' }: ReportBuilderProps) {
       <div className="p-6 border-b dark:border-gray-700">
         <div className="flex items-center justify-between">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-            Custom Report Builder
+            📄 Custom Report Builder
           </h2>
           <div className="flex items-center space-x-2">
             <button
@@ -334,9 +334,9 @@ export default function ReportBuilder({ className = '' }: ReportBuilderProps) {
         {/* Class Filter */}
         <div>
           <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-              <Filter className="w-4 h-4 inline mr-1" />
-              Class Filter
-            </label>
+            <Filter className="w-4 h-4 inline mr-1" />
+            Class Filter
+          </label>
           <div className="space-y-2 max-h-32 overflow-y-auto border border-gray-300 rounded-md p-2 dark:bg-gray-700 dark:border-gray-600">
             {classes.map(cls => (
               <label key={cls.id} className="flex items-center space-x-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-600 p-1 rounded">
@@ -378,7 +378,7 @@ export default function ReportBuilder({ className = '' }: ReportBuilderProps) {
       {reportData.length > 0 && (
         <div className="border-t dark:border-gray-700 pt-6">
           <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">
-            Report Preview ({reportData.length} records)
+            👁 Report Preview ({reportData.length} records)
           </h3>
           
           <div className="overflow-x-auto">
