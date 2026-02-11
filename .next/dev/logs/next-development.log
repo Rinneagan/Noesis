@@ -110,3 +110,4 @@ Import traces:
     ./src/components/StudentCheckInPortal.tsx [Client Component SSR]
     ./src/app/page.tsx [Client Component SSR]
     ./src/app/page.tsx [Server Component]
+[00:08:24.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
