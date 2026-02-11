@@ -1,3 +1,5 @@
+import { BrowserUtils } from './browser-utils';
+
 export class CameraService {
   private static instance: CameraService;
   private stream: MediaStream | null = null;
@@ -15,15 +17,19 @@ export class CameraService {
    */
   async initializeCamera(videoElement: HTMLVideoElement): Promise<void> {
     try {
-      this.stream = await navigator.mediaDevices.getUserMedia({
-        video: {
-          width: { ideal: 1280 },
-          height: { ideal: 720 },
-          facingMode: 'user'
-        },
-        audio: false
-      });
+      // Check browser support first
+      const support = BrowserUtils.checkBrowserSupport();
+      if (!support.camera) {
+        throw new Error('Camera not supported in this browser');
+      }
 
+      // Request camera permission
+      const permissionResult = await BrowserUtils.requestCameraPermission();
+      if (!permissionResult.granted) {
+        throw new Error(permissionResult.error || 'Camera permission denied');
+      }
+
+      this.stream = permissionResult.stream!;
       this.videoElement = videoElement;
       videoElement.srcObject = this.stream;
       
@@ -36,7 +42,7 @@ export class CameraService {
       });
     } catch (error) {
       console.error('Camera initialization error:', error);
-      throw new Error('Failed to access camera. Please ensure you have granted camera permissions.');
+      throw new Error(error instanceof Error ? error.message : 'Failed to access camera');
     }
   }
 

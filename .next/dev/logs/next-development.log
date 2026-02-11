@@ -111,3 +111,213 @@ Import traces:
     ./src/app/page.tsx [Client Component SSR]
     ./src/app/page.tsx [Server Component]
 [00:08:24.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:58.070] Browser LOG     WebSocket disabled in development - continuing without real-time features
+[00:37:58.071] Browser LOG     WebSocket disabled in development - continuing without real-time features
+[00:39:27.076] Server  LOG     ✓ Compiled in 395ms
+[00:39:52.190] Server  LOG     ✓ Compiled in 141ms
+[00:40:04.252] Server  LOG     ✓ Compiled in 439ms
+[00:40:56.749] Server  LOG     ✓ Compiled in 154ms
+[00:41:03.312] Server  LOG     ✓ Compiled in 209ms
+[00:41:09.919] Server  LOG     ✓ Compiled in 366ms
+[00:42:10.793] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:21.884] Browser LOG     WebSocket disabled in development - continuing without real-time features
+[00:42:21.884] Browser LOG     WebSocket disabled in development - continuing without real-time features
+[00:42:24.636] Browser LOG     WebSocket disabled in development - continuing without real-time features
+[00:42:24.636] Browser LOG     WebSocket disabled in development - continuing without real-time features
+[00:42:36.746] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:36.746] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:36.865] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:36.865] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:36.994] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:36.994] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.012] Server  LOG     ✓ Compiled in 193ms
+[00:42:37.119] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.119] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.236] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.236] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.363] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.363] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.487] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.487] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.611] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.611] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.736] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.736] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.856] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.856] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.986] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:37.986] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.110] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.110] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.243] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.243] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.370] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.370] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.492] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.492] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.612] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.613] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.755] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.755] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.877] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.877] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.998] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:38.998] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.130] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.130] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.255] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.255] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.385] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.385] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.519] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.519] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.655] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.655] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.795] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.795] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.932] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:39.932] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.088] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.089] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.241] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.241] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.406] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.407] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.560] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.560] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.714] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.714] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.855] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:40.856] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.015] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.015] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.173] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.173] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.328] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.328] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.475] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.475] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.632] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.633] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.770] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.771] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.910] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:41.910] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.049] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.049] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.188] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.188] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.333] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.333] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.483] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.483] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.653] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.653] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.796] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.796] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.926] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:42.926] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.056] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.056] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.181] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.181] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.313] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.313] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.439] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.439] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.571] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.571] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.698] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.698] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.825] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.825] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.954] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:43.955] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.085] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.085] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.214] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.214] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.345] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.345] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.480] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.480] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.611] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.611] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.754] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.754] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.884] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:44.884] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.015] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.015] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.148] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.148] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.291] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.291] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.460] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.460] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.616] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.616] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.763] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.763] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.915] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:45.915] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.045] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.045] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.194] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.194] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.326] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.326] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.455] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.455] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.575] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.575] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.709] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.709] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.877] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:46.878] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.014] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.015] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.159] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.159] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.293] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.293] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.422] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.422] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.557] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.557] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.688] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.688] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.838] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.839] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.969] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:47.969] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.102] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.103] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.244] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.244] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.377] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.377] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.528] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.528] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.654] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.654] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.786] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.786] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.918] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:48.918] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:49.048] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:49.048] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:49.199] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:49.199] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:49.329] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:49.330] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:49.466] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:49.466] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:49.601] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:42:49.601] Browser WARN    QR scan error: QR code parse error, error = NotFoundException: No MultiFormat Readers were able to detect the code.
+[00:43:56.581] Server  LOG     ✓ Compiled in 158ms
+[00:44:04.458] Server  LOG     ✓ Compiled in 134ms
+[00:44:22.857] Server  LOG     ✓ Compiled in 159ms
+[00:44:29.734] Server  LOG     ✓ Compiled in 87ms
+[00:45:18.511] Browser LOG     WebSocket disabled in development - continuing without real-time features
+[00:45:18.511] Browser LOG     WebSocket disabled in development - continuing without real-time features

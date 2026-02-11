@@ -542,6 +542,10 @@
     right: calc(var(--spacing) * 4);
   }
 
+  .bottom-4 {
+    bottom: calc(var(--spacing) * 4);
+  }
+
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
@@ -1056,6 +1060,10 @@
 
   .border-red-200 {
     border-color: var(--color-red-200);
+  }
+
+  .border-red-400 {
+    border-color: var(--color-red-400);
   }
 
   .border-transparent {

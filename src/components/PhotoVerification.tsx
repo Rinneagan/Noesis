@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { Camera, CameraOff, RefreshCw, AlertCircle, CheckCircle, User } from 'lucide-react';
+import { Camera, CameraOff, RefreshCw, AlertCircle, CheckCircle, User, Shield } from 'lucide-react';
 import { cameraService } from '@/lib/camera-service';
+import { BrowserUtils } from '@/lib/browser-utils';
 
 interface PhotoVerificationProps {
   onPhotoCapture: (photoData: string) => void;
@@ -17,9 +18,10 @@ export default function PhotoVerification({
 }: PhotoVerificationProps) {
   const [photo, setPhoto] = useState<string>('');
   const [isCapturing, setIsCapturing] = useState(false);
-  const [cameraError, setCameraError] = useState<string>('');
-  const [photoQuality, setPhotoQuality] = useState<any>(null);
   const [isProcessing, setIsProcessing] = useState(false);
+  const [photoQuality, setPhotoQuality] = useState<any>(null);
+  const [cameraError, setCameraError] = useState<string>('');
+  const [browserSupport, setBrowserSupport] = useState(BrowserUtils.checkBrowserSupport());
   
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -114,6 +116,35 @@ export default function PhotoVerification({
             </button>
           )}
         </div>
+
+        {/* Browser Support Warning */}
+        {!browserSupport.camera && (
+          <div className="mb-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
+            <div className="flex items-start space-x-2">
+              <AlertCircle className="w-5 h-5 text-yellow-600 mt-0.5" />
+              <div>
+                <p className="text-sm font-medium text-yellow-800">Camera Not Supported</p>
+                <p className="text-xs text-yellow-700 mt-1">
+                  Your browser doesn't support camera access. Please try using a modern browser like Chrome, Firefox, or Safari.
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {!browserSupport.https && (
+          <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg">
+            <div className="flex items-start space-x-2">
+              <Shield className="w-5 h-5 text-red-600 mt-0.5" />
+              <div>
+                <p className="text-sm font-medium text-red-800">Secure Connection Required</p>
+                <p className="text-xs text-red-700 mt-1">
+                  Camera access requires a secure HTTPS connection. Please use HTTPS in production.
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
 
         {!photo ? (
           <div className="space-y-4">

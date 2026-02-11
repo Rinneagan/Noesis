@@ -12,6 +12,8 @@ import StudentDashboard from '@/components/StudentDashboard';
 import StudentCheckInPortal from '@/components/StudentCheckInPortal';
 import StudentSelfServicePortal from '@/components/StudentSelfServicePortal';
 import NotificationCenter from '@/components/NotificationCenter';
+import DebugPanel from '@/components/DebugPanel';
+import QRTest from '@/components/QRTest';
 import { Search, Moon, Sun, Download, Upload, Settings, LogOut, User } from 'lucide-react';
 import { exportToCSV } from '@/lib/utils';
 
@@ -285,8 +287,12 @@ export default function Home() {
           {activeTab === 'attendance' && <AttendanceTracker searchTerm={searchTerm} />}
           {activeTab === 'reports' && <AttendanceReports searchTerm={searchTerm} />}
           {activeTab === 'charts' && <AttendanceCharts />}
+          {process.env.NODE_ENV === 'development' && activeTab === 'attendance' && <QRTest />}
         </div>
       </main>
+
+      {/* Debug Panel - Only in development */}
+      {process.env.NODE_ENV === 'development' && <DebugPanel />}
     </div>
   );
 }

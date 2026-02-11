@@ -48,6 +48,8 @@ export class QRService {
    */
   async generateQRImage(qrData: QRCodeData): Promise<string> {
     try {
+      console.log('Generating QR image for data:', qrData.data);
+      
       const qrCodeDataURL = await QRCode.toDataURL(qrData.data, {
         width: 300,
         margin: 2,
@@ -57,10 +59,12 @@ export class QRService {
         },
         errorCorrectionLevel: 'M'
       });
+      
+      console.log('QR image generated successfully');
       return qrCodeDataURL;
     } catch (error) {
       console.error('Failed to generate QR code image:', error);
-      throw new Error('Failed to generate QR code');
+      throw new Error('Failed to generate QR code: ' + (error instanceof Error ? error.message : 'Unknown error'));
     }
   }
 
