@@ -54,11 +54,12 @@ export class WebSocketService {
   connect(url: string = 'ws://localhost:3001'): Promise<void> {
     return new Promise((resolve, reject) => {
       if (this.isConnecting) {
-        reject(new Error('Connection already in progress'));
+        console.log('Connection already in progress, waiting...');
         return;
       }
 
       if (this.ws && this.ws.readyState === WebSocket.OPEN) {
+        console.log('Already connected');
         resolve();
         return;
       }

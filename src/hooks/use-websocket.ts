@@ -10,8 +10,13 @@ export function useWebSocket() {
   const listenersRef = useRef<Map<string, Set<(message: WebSocketMessage) => void>>>(new Map());
 
   useEffect(() => {
-    // Connect to WebSocket
+    // Connect to WebSocket only once
     const connectWebSocket = async () => {
+      if (isConnected) {
+        console.log('Already connected to WebSocket');
+        return;
+      }
+      
       try {
         await webSocketService.connect();
         setIsConnected(true);
@@ -38,7 +43,7 @@ export function useWebSocket() {
     return () => {
       unsubscribeAll();
     };
-  }, []);
+  }, []); // Empty dependency array - only run once
 
   const subscribe = useCallback((type: string, callback: (message: WebSocketMessage) => void) => {
     const unsubscribe = webSocketService.subscribe(type, callback);
