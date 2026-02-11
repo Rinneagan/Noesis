@@ -7,6 +7,8 @@ import ClassList from '@/components/ClassList';
 import AttendanceTracker from '@/components/AttendanceTracker';
 import AttendanceReports from '@/components/AttendanceReports';
 import AttendanceCharts from '@/components/AttendanceCharts';
+import AdvancedAnalytics from '@/components/AdvancedAnalytics';
+import ReportBuilder from '@/components/ReportBuilder';
 import Login from '@/components/Login';
 import StudentDashboard from '@/components/StudentDashboard';
 import StudentCheckInPortal from '@/components/StudentCheckInPortal';
@@ -20,7 +22,7 @@ import { exportToCSV } from '@/lib/utils';
 export default function Home() {
   const { user, isAuthenticated, logout } = useAuth();
   const { classes, sessions, darkMode, toggleDarkMode, exportData, initializeData } = useAppStore();
-  const [activeTab, setActiveTab] = useState<'classes' | 'attendance' | 'reports' | 'charts' | 'dashboard' | 'checkin' | 'selfservice'>('dashboard');
+  const [activeTab, setActiveTab] = useState<'classes' | 'attendance' | 'reports' | 'charts' | 'analytics' | 'reports-builder' | 'dashboard' | 'checkin' | 'selfservice'>('dashboard');
   const [searchTerm, setSearchTerm] = useState('');
   const [showSettings, setShowSettings] = useState(false);
 
@@ -263,6 +265,8 @@ export default function Home() {
                 { id: 'attendance', label: 'Take Attendance' },
                 { id: 'reports', label: 'Reports' },
                 { id: 'charts', label: 'Analytics' },
+                { id: 'analytics', label: 'Advanced Analytics' },
+                { id: 'reports-builder', label: 'Report Builder' },
               ].map((tab) => (
                 <button
                   key={tab.id}
@@ -287,6 +291,8 @@ export default function Home() {
           {activeTab === 'attendance' && <AttendanceTracker searchTerm={searchTerm} />}
           {activeTab === 'reports' && <AttendanceReports searchTerm={searchTerm} />}
           {activeTab === 'charts' && <AttendanceCharts />}
+          {activeTab === 'analytics' && <AdvancedAnalytics />}
+          {activeTab === 'reports-builder' && <ReportBuilder />}
           {process.env.NODE_ENV === 'development' && activeTab === 'attendance' && <QRTest />}
         </div>
       </main>
